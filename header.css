@@ -1,0 +1,14 @@
+.header {
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 26px 0 26px;
+  align-items: center;
+  height: 72px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+
+}

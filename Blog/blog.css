@@ -1,0 +1,18 @@
+@import "../header.css";
+
+.blog-article, body {
+  margin: 0
+}
+
+.blog-article {
+  margin-top: 16px;
+  border-style: solid;
+}
+
+.click-me {
+  text-align: right;
+}
+
+.click-me a:hover {
+  color: hotpink;
+}

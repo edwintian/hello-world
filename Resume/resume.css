@@ -1,0 +1,44 @@
+@import "../header.css";
+
+.resume {
+  display: grid;
+  grid-template-areas:
+    "name name"
+    "address address"
+    "experience skills"
+    "experience education"
+    "personal personal";
+  border: 1px solid black;
+  margin: 16px;
+  padding: 16px;
+  grid-gap: 16px;
+}
+
+.resume-title {
+  grid-area: name;
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+.address {
+  grid-area: address;
+  font-size: 24px;
+  text-align: center;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.education {
+  grid-area: education;
+}
+
+.personal {
+  grid-area: personal;
+}
