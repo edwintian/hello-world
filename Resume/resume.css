@@ -1,5 +1,7 @@
 @import "../header.css";
 
+/* body margin not set to zero */
+
 .resume {
   display: grid;
   grid-template-areas:

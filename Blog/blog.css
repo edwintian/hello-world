@@ -1,12 +1,15 @@
 @import "../header.css";
 
+/* no margin */
 .blog-article, body {
   margin: 0
 }
 
+
 .blog-article {
   margin-top: 16px;
-  border-style: solid;
+  /* specify the border-width */
+  border-style: solid; 
 }
 
 .click-me {
